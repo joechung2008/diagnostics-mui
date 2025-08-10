@@ -1,0 +1,11 @@
+.tabpanel {
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
