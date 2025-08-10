@@ -2,6 +2,7 @@
 
 ## 2025-08-10
 
+- Add unit tests
 - Change configuration and stage definition headers to h3
 - Fix typo in types.ts
 - Remove unused test script

@@ -14,7 +14,6 @@ import BuildInfo from "./BuildInfo";
 import Extension from "./Extension";
 import Extensions from "./Extensions";
 import ServerInfo from "./ServerInfo";
-import type { KeyedNavLink } from "./types";
 import { useSystemTheme } from "./useSystemTheme";
 import { isExtensionInfo } from "./utils";
 

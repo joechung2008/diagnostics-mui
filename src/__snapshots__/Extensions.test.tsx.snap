@@ -1,0 +1,267 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Extensions > calls onLinkClick when a link is clicked 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext2
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with ExtensionError 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with config 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with config and stageDefinition 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with minimal extension 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with mixed ExtensionInfo and ExtensionError 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with multiple extensions 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext2
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with no extensions 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Extensions > matches snapshot with stageDefinition 1`] = `
+<div>
+  <div
+    class="box tabpanel MuiBox-root css-0"
+  >
+    <ul
+      class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+    >
+      <div
+        class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+          >
+            ext1
+          </span>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
