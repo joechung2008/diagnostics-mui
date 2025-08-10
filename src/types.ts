@@ -3,5 +3,5 @@ export type KeyedNavLink = {
   key: string;
   name: string;
   url?: string;
-  [prop: string]: unknkown;
+  [prop: string]: unknown;
 };
