@@ -15,7 +15,7 @@ const Configuration: React.FC<ConfigurationProps> = ({ config }) => {
 
   return (
     <div>
-      <Typography variant="h2" fontWeight="semibold">
+      <Typography variant="h3" fontWeight="semibold">
         Configuration
       </Typography>
       <Table aria-label="Configuration">

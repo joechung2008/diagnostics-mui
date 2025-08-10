@@ -16,7 +16,7 @@ const StageDefinition: React.FC<StageDefinitionProps> = ({
 
   return (
     <div>
-      <Typography variant="h2" fontWeight="semibold">
+      <Typography variant="h3" fontWeight="semibold">
         Stage Definitions
       </Typography>
       <Table aria-label="Stage Definitions">
