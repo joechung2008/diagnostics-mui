@@ -1,5 +1,11 @@
 # Changelog
 
+## 2025-08-11
+
+- Add and update unit tests
+- Update snapshots and test configuration
+- Minor file cleanup and type fixes
+
 ## 2025-08-10
 
 - Add unit tests
