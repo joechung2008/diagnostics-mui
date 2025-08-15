@@ -1,5 +1,9 @@
 # Changelog
 
+## 2025-08-15
+
+- Update outdated packages
+
 ## 2025-08-11
 
 - Add and update unit tests

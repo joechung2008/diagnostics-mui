@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 let renderMock: ReturnType<typeof vi.fn>;
 vi.mock("react-dom/client", () => ({
@@ -8,6 +8,11 @@ vi.mock("react-dom/client", () => ({
 describe("main entry point", () => {
   beforeEach(() => {
     renderMock = vi.fn();
+    // Remove any existing root element
+    const existingRoot = document.getElementById("root");
+    if (existingRoot) {
+      existingRoot.remove();
+    }
     // Mock document.getElementById and createRoot
     const rootElem = document.createElement("div");
     rootElem.id = "root";
@@ -20,6 +25,13 @@ describe("main entry point", () => {
       querySelectorAll: vi.fn(() => []),
       createElement: document.createElement.bind(document),
     });
+  });
+
+  afterEach(() => {
+    const rootElem = document.getElementById("root");
+    if (rootElem) {
+      rootElem.remove();
+    }
   });
 
   it("renders without crashing", async () => {
