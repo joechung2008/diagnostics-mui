@@ -3,117 +3,118 @@
 exports[`App > matches snapshot after diagnostics fetch 1`] = `
 <DocumentFragment>
   <div
-    class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
-  >
-    <button
-      aria-haspopup="true"
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      Public Cloud
-      <span
-        class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
-      >
-        <svg
-          aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
-          data-testid="ExpandMoreIcon"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-          />
-        </svg>
-      </span>
-    </button>
-    <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      websites
-    </button>
-  </div>
-  <div
-    class="MuiTabs-root css-jhczcq-MuiTabs-root"
+    class="flexbox"
   >
     <div
-      class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-      style="overflow: hidden; margin-bottom: 0px;"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
+    >
+      <button
+        aria-haspopup="true"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Public Cloud
+        <span
+          class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        websites
+      </button>
+    </div>
+    <div
+      class="MuiTabs-root css-jhczcq-MuiTabs-root"
     >
       <div
-        aria-label="App navigation"
-        class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
-        role="tablist"
+        class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+        style="overflow: hidden; margin-bottom: 0px;"
       >
-        <button
-          aria-selected="true"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="0"
-          type="button"
+        <div
+          aria-label="App navigation"
+          class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+          role="tablist"
         >
-          Extensions
-          <span
-            class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
-          />
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Build Information
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Server Information
-        </button>
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="0"
+            type="button"
+          >
+            Extensions
+            <span
+              class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+            />
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Build Information
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Server Information
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-  <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
-  >
     <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto css-1hef13s-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row tab-panel css-d64g0g-MuiGrid-root"
     >
       <div
-        class="box tabpanel MuiBox-root css-0"
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row stack css-r95vsg-MuiGrid-root"
       >
-        <ul
-          class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
         >
-          <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
-            role="button"
-            tabindex="0"
+          <ul
+            class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
           >
             <div
-              class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+              class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+              role="button"
+              tabindex="0"
             >
-              <span
-                class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+              <div
+                class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
               >
-                ext1
-              </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                >
+                  ext1
+                </span>
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
-    <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow css-1ynczkt-MuiGrid-root"
-    />
   </div>
 </DocumentFragment>
 `;
@@ -121,118 +122,119 @@ exports[`App > matches snapshot after diagnostics fetch 1`] = `
 exports[`App > matches snapshot after switching to Build Information tab 1`] = `
 <DocumentFragment>
   <div
-    class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
-  >
-    <button
-      aria-haspopup="true"
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      Public Cloud
-      <span
-        class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
-      >
-        <svg
-          aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
-          data-testid="ExpandMoreIcon"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-          />
-        </svg>
-      </span>
-    </button>
-    <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      websites
-    </button>
-  </div>
-  <div
-    class="MuiTabs-root css-jhczcq-MuiTabs-root"
+    class="flexbox"
   >
     <div
-      class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-      style="overflow: hidden; margin-bottom: 0px;"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
     >
-      <div
-        aria-label="App navigation"
-        class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
-        role="tablist"
+      <button
+        aria-haspopup="true"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
       >
-        <button
-          aria-selected="true"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="0"
-          type="button"
+        Public Cloud
+        <span
+          class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
         >
-          Extensions
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Build Information
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Server Information
-        </button>
-      </div>
-      <span
-        class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
-        style="left: 0px; width: 0px;"
-      />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        websites
+      </button>
     </div>
-  </div>
-  <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
-  >
     <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto css-1hef13s-MuiGrid-root"
+      class="MuiTabs-root css-jhczcq-MuiTabs-root"
     >
       <div
-        class="box tabpanel MuiBox-root css-0"
+        class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+        style="overflow: hidden; margin-bottom: 0px;"
       >
-        <ul
-          class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+        <div
+          aria-label="App navigation"
+          class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+          role="tablist"
         >
-          <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
-            role="button"
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
             tabindex="0"
+            type="button"
+          >
+            Extensions
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Build Information
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Server Information
+          </button>
+        </div>
+        <span
+          class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row tab-panel css-d64g0g-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row stack css-r95vsg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
+        >
+          <ul
+            class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
           >
             <div
-              class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+              class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+              role="button"
+              tabindex="0"
             >
-              <span
-                class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+              <div
+                class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
               >
-                ext1
-              </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                >
+                  ext1
+                </span>
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
-    <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow css-1ynczkt-MuiGrid-root"
-    />
   </div>
 </DocumentFragment>
 `;
@@ -240,118 +242,119 @@ exports[`App > matches snapshot after switching to Build Information tab 1`] = `
 exports[`App > matches snapshot after switching to Server Information tab 1`] = `
 <DocumentFragment>
   <div
-    class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
-  >
-    <button
-      aria-haspopup="true"
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      Public Cloud
-      <span
-        class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
-      >
-        <svg
-          aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
-          data-testid="ExpandMoreIcon"
-          focusable="false"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-          />
-        </svg>
-      </span>
-    </button>
-    <button
-      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
-      tabindex="0"
-      type="button"
-    >
-      websites
-    </button>
-  </div>
-  <div
-    class="MuiTabs-root css-jhczcq-MuiTabs-root"
+    class="flexbox"
   >
     <div
-      class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
-      style="overflow: hidden; margin-bottom: 0px;"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
     >
-      <div
-        aria-label="App navigation"
-        class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
-        role="tablist"
+      <button
+        aria-haspopup="true"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
       >
-        <button
-          aria-selected="true"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="0"
-          type="button"
+        Public Cloud
+        <span
+          class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
         >
-          Extensions
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Build Information
-        </button>
-        <button
-          aria-selected="false"
-          class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
-          role="tab"
-          tabindex="-1"
-          type="button"
-        >
-          Server Information
-        </button>
-      </div>
-      <span
-        class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
-        style="left: 0px; width: 0px;"
-      />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-n5hn8a-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        websites
+      </button>
     </div>
-  </div>
-  <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
-  >
     <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto css-1hef13s-MuiGrid-root"
+      class="MuiTabs-root css-jhczcq-MuiTabs-root"
     >
       <div
-        class="box tabpanel MuiBox-root css-0"
+        class="MuiTabs-scroller MuiTabs-fixed css-s2t35c-MuiTabs-scroller"
+        style="overflow: hidden; margin-bottom: 0px;"
       >
-        <ul
-          class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+        <div
+          aria-label="App navigation"
+          class="MuiTabs-list MuiTabs-flexContainer css-hzcega-MuiTabs-list"
+          role="tablist"
         >
-          <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
-            role="button"
+          <button
+            aria-selected="true"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
             tabindex="0"
+            type="button"
+          >
+            Extensions
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Build Information
+          </button>
+          <button
+            aria-selected="false"
+            class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1usuzwp-MuiButtonBase-root-MuiTab-root"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Server Information
+          </button>
+        </div>
+        <span
+          class="MuiTabs-indicator css-1qltlow-MuiTabs-indicator"
+          style="left: 0px; width: 0px;"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row tab-panel css-d64g0g-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row stack css-r95vsg-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
+        >
+          <ul
+            class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
           >
             <div
-              class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+              class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
+              role="button"
+              tabindex="0"
             >
-              <span
-                class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+              <div
+                class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
               >
-                ext1
-              </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+                >
+                  ext1
+                </span>
+              </div>
             </div>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
-    <div
-      class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow css-1ynczkt-MuiGrid-root"
-    />
   </div>
 </DocumentFragment>
 `;

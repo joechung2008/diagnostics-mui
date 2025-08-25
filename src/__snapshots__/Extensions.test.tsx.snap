@@ -3,7 +3,7 @@
 exports[`Extensions > calls onLinkClick when a link is clicked 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -46,7 +46,7 @@ exports[`Extensions > calls onLinkClick when a link is clicked 1`] = `
 exports[`Extensions > matches snapshot with ExtensionError 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -74,7 +74,7 @@ exports[`Extensions > matches snapshot with ExtensionError 1`] = `
 exports[`Extensions > matches snapshot with config 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -102,7 +102,7 @@ exports[`Extensions > matches snapshot with config 1`] = `
 exports[`Extensions > matches snapshot with config and stageDefinition 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -130,7 +130,7 @@ exports[`Extensions > matches snapshot with config and stageDefinition 1`] = `
 exports[`Extensions > matches snapshot with minimal extension 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -158,7 +158,7 @@ exports[`Extensions > matches snapshot with minimal extension 1`] = `
 exports[`Extensions > matches snapshot with mixed ExtensionInfo and ExtensionError 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -186,7 +186,7 @@ exports[`Extensions > matches snapshot with mixed ExtensionInfo and ExtensionErr
 exports[`Extensions > matches snapshot with multiple extensions 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -229,7 +229,7 @@ exports[`Extensions > matches snapshot with multiple extensions 1`] = `
 exports[`Extensions > matches snapshot with no extensions 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
@@ -241,7 +241,7 @@ exports[`Extensions > matches snapshot with no extensions 1`] = `
 exports[`Extensions > matches snapshot with stageDefinition 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-auto extension-root css-1hef13s-MuiGrid-root"
   >
     <ul
       class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"

@@ -3,7 +3,7 @@
 exports[`Extension > matches snapshot 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow extension-root css-1ynczkt-MuiGrid-root"
   >
     <h2
       class="MuiTypography-root MuiTypography-h2 css-866djt-MuiTypography-root"
@@ -17,7 +17,7 @@ exports[`Extension > matches snapshot 1`] = `
 exports[`Extension > renders Configuration when config is provided 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow extension-root css-1ynczkt-MuiGrid-root"
   >
     <h2
       class="MuiTypography-root MuiTypography-h2 css-866djt-MuiTypography-root"
@@ -81,7 +81,7 @@ exports[`Extension > renders Configuration when config is provided 1`] = `
 exports[`Extension > renders StageDefinition when stageDefinition is provided 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow extension-root css-1ynczkt-MuiGrid-root"
   >
     <h2
       class="MuiTypography-root MuiTypography-h2 css-866djt-MuiTypography-root"
@@ -145,7 +145,7 @@ exports[`Extension > renders StageDefinition when stageDefinition is provided 1`
 exports[`Extension > renders both Configuration and StageDefinition when both props are provided 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow extension-root css-1ynczkt-MuiGrid-root"
   >
     <h2
       class="MuiTypography-root MuiTypography-h2 css-866djt-MuiTypography-root"
@@ -259,7 +259,7 @@ exports[`Extension > renders both Configuration and StageDefinition when both pr
 exports[`Extension > renders extensionName as heading 1`] = `
 <div>
   <div
-    class="box tabpanel MuiBox-root css-0"
+    class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-grow extension-root css-1ynczkt-MuiGrid-root"
   >
     <h2
       class="MuiTypography-root MuiTypography-h2 css-866djt-MuiTypography-root"

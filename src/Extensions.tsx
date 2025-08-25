@@ -1,4 +1,4 @@
-import { Box, List, ListItemButton, ListItemText } from "@mui/material";
+import { Grid, List, ListItemButton, ListItemText } from "@mui/material";
 import { byKey, isExtensionInfo, toNavLink } from "./utils";
 
 const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
@@ -8,7 +8,7 @@ const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
     .sort(byKey);
 
   return (
-    <Box className="box tabpanel">
+    <Grid className="extension-root" size="auto">
       <List>
         {links.map((link) => (
           <ListItemButton
@@ -19,7 +19,7 @@ const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
           </ListItemButton>
         ))}
       </List>
-    </Box>
+    </Grid>
   );
 };
 

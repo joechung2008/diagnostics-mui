@@ -113,94 +113,102 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Toolbar>
-        <Button
-          aria-controls={envMenuAnchorEl ? "env-menu" : undefined}
-          aria-haspopup="true"
-          endIcon={
-            <ExpandMoreIcon
-              sx={{
-                transform: envMenuAnchorEl ? "rotate(180deg)" : "rotate(0deg)",
-                transition: "transform 0.2s",
-              }}
-            />
-          }
-          onClick={handleEnvMenuOpen}
-        >
-          {environments.find((env) => env.selected)?.text ??
-            "Select Environment"}
-        </Button>
-        <Menu
-          id="env-menu"
-          anchorEl={envMenuAnchorEl}
-          open={Boolean(envMenuAnchorEl)}
-          onClose={handleEnvMenuClose}
-        >
-          {environments.map((env) => (
-            <MenuItem
-              key={env.key}
-              selected={env.selected}
+      <div className="flexbox">
+        <Toolbar>
+          <Button
+            aria-controls={envMenuAnchorEl ? "env-menu" : undefined}
+            aria-haspopup="true"
+            endIcon={
+              <ExpandMoreIcon
+                sx={{
+                  transform: envMenuAnchorEl
+                    ? "rotate(180deg)"
+                    : "rotate(0deg)",
+                  transition: "transform 0.2s",
+                }}
+              />
+            }
+            onClick={handleEnvMenuOpen}
+          >
+            {environments.find((env) => env.selected)?.text ??
+              "Select Environment"}
+          </Button>
+          <Menu
+            id="env-menu"
+            anchorEl={envMenuAnchorEl}
+            open={Boolean(envMenuAnchorEl)}
+            onClose={handleEnvMenuClose}
+          >
+            {environments.map((env) => (
+              <MenuItem
+                key={env.key}
+                selected={env.selected}
+                onClick={() => {
+                  env.onClick();
+                  handleEnvMenuClose();
+                }}
+              >
+                {env.text}
+              </MenuItem>
+            ))}
+          </Menu>
+          {showPaasServerless && (
+            <Button
+              key="paasserverless"
               onClick={() => {
-                env.onClick();
-                handleEnvMenuClose();
+                const paasserverless =
+                  diagnostics?.extensions["paasserverless"];
+                if (isExtensionInfo(paasserverless)) {
+                  setExtension(paasserverless);
+                }
               }}
             >
-              {env.text}
-            </MenuItem>
-          ))}
-        </Menu>
-        {showPaasServerless && (
+              paasserverless
+            </Button>
+          )}
           <Button
-            key="paasserverless"
+            key="websites"
             onClick={() => {
-              const paasserverless = diagnostics?.extensions["paasserverless"];
-              if (isExtensionInfo(paasserverless)) {
-                setExtension(paasserverless);
+              const websites = diagnostics?.extensions["websites"];
+              if (isExtensionInfo(websites)) {
+                setExtension(websites);
               }
             }}
           >
-            paasserverless
+            websites
           </Button>
-        )}
-        <Button
-          key="websites"
-          onClick={() => {
-            const websites = diagnostics?.extensions["websites"];
-            if (isExtensionInfo(websites)) {
-              setExtension(websites);
-            }
-          }}
+        </Toolbar>
+        <Tabs
+          value={selectedTab}
+          onChange={(_, newValue) => setSelectedTab(newValue as string)}
+          aria-label="App navigation"
         >
-          websites
-        </Button>
-      </Toolbar>
-      <Tabs
-        value={selectedTab}
-        onChange={(_, newValue) => setSelectedTab(newValue as string)}
-        aria-label="App navigation"
-      >
-        <Tab label="Extensions" value="extensions" />
-        <Tab label="Build Information" value="build" />
-        <Tab label="Server Information" value="server" />
-      </Tabs>
-      {selectedTab === "extensions" && (
-        <Grid container>
-          <Grid size="auto">
-            <Extensions extensions={extensions} onLinkClick={handleLinkClick} />
+          <Tab label="Extensions" value="extensions" />
+          <Tab label="Build Information" value="build" />
+          <Tab label="Server Information" value="server" />
+        </Tabs>
+        {selectedTab === "extensions" && (
+          <Grid className="tab-panel" container>
+            <Grid className="stack" container gap="0.5rem">
+              <Extensions
+                extensions={extensions}
+                onLinkClick={handleLinkClick}
+              />
+              {extension && <Extension {...extension} />}
+            </Grid>
           </Grid>
-          <Grid size="grow">{extension && <Extension {...extension} />}</Grid>
-        </Grid>
-      )}
-      {selectedTab === "build" && (
-        <div className="tabpanel">
-          <BuildInfo {...buildInfo} />
-        </div>
-      )}
-      {selectedTab === "server" && (
-        <div className="tabpanel">
-          <ServerInfo {...serverInfo} />
-        </div>
-      )}
+        )}
+        {selectedTab === "build" && (
+          <div className="tab-panel">
+            <BuildInfo {...buildInfo} />
+          </div>
+        )}
+        {selectedTab === "server" && (
+          <div className="tab-panel">
+            <ServerInfo {...serverInfo} />
+          </div>
+        )}
+      </div>
     </ThemeProvider>
   );
 };
