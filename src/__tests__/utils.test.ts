@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { byKey, isExtensionInfo, toNavLink, when } from "./utils";
+import { byKey, isExtensionInfo, toNavLink, when } from "../utils";
 
 describe("isExtensionInfo", () => {
   const info: ExtensionInfo = { extensionName: "ext1" };

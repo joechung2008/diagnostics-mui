@@ -1,8 +1,6 @@
-// Snapshot test for ServerInfo
-
-import { describe, it, expect } from "vitest";
 import { render } from "@testing-library/react";
-import ServerInfo from "./ServerInfo";
+import { describe, expect, it } from "vitest";
+import ServerInfo from "../ServerInfo";
 
 describe("ServerInfo", () => {
   it("matches snapshot", () => {

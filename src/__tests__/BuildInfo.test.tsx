@@ -1,8 +1,6 @@
-// Snapshot test for BuildInfo
-
-import { describe, it, expect } from "vitest";
 import { render } from "@testing-library/react";
-import BuildInfo from "./BuildInfo";
+import { describe, expect, it } from "vitest";
+import BuildInfo from "../BuildInfo";
 
 describe("BuildInfo", () => {
   it("matches snapshot", () => {

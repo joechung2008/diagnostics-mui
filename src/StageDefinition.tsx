@@ -27,8 +27,8 @@ const StageDefinition: React.FC<StageDefinitionProps> = ({
           </TableRow>
         </TableHead>
         <TableBody>
-          {items.map((item, idx) => (
-            <TableRow key={idx}>
+          {items.map((item) => (
+            <TableRow key={item.key}>
               <TableCell>{item.key}</TableCell>
               <TableCell>{item.value.join(", ")}</TableCell>
             </TableRow>

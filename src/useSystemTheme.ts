@@ -11,7 +11,7 @@ export function useSystemTheme() {
           mode: prefersDarkMode ? "dark" : "light",
         },
       }),
-    [prefersDarkMode],
+    [prefersDarkMode]
   );
 
   useLayoutEffect(() => {

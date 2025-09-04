@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 let renderMock: ReturnType<typeof vi.fn>;
+
 vi.mock("react-dom/client", () => ({
   createRoot: () => ({ render: () => renderMock() }),
 }));
@@ -36,7 +37,7 @@ describe("main entry point", () => {
 
   it("renders without crashing", async () => {
     // Import main.tsx after mocks are set up
-    await import("./main.tsx");
+    await import("../main.tsx");
     expect(renderMock).toHaveBeenCalled();
   });
 });

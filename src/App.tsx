@@ -37,10 +37,10 @@ const App: React.FC = () => {
   const [diagnostics, setDiagnostics] = useState<Diagnostics>();
   const [extension, setExtension] = useState<ExtensionInfo>();
   const [environment, setEnvironment] = useState<Environment>(
-    EnvironmentUrls.Public,
+    EnvironmentUrls.Public
   );
   const [envMenuAnchorEl, setEnvMenuAnchorEl] = useState<null | HTMLElement>(
-    null,
+    null
   );
   const handleEnvMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
     setEnvMenuAnchorEl(event.currentTarget);
@@ -52,7 +52,7 @@ const App: React.FC = () => {
 
   const showPaasServerless = useMemo(
     () => isExtensionInfo(diagnostics?.extensions["paasserverless"]),
-    [diagnostics?.extensions],
+    [diagnostics?.extensions]
   );
 
   const environments = useMemo(
@@ -85,7 +85,7 @@ const App: React.FC = () => {
         },
       },
     ],
-    [environment],
+    [environment]
   );
 
   useEffect(() => {

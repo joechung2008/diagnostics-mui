@@ -1,8 +1,6 @@
-// Snapshot test for Configuration
-
-import { describe, it, expect } from "vitest";
 import { render } from "@testing-library/react";
-import Configuration from "./Configuration";
+import { describe, expect, it } from "vitest";
+import Configuration from "../Configuration";
 
 describe("Configuration", () => {
   it("matches snapshot", () => {

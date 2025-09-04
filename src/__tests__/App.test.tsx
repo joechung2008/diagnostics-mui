@@ -1,6 +1,6 @@
-import { render, screen, waitFor, fireEvent } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import App from "./App";
+import App from "../App";
 
 const diagnostics = {
   buildInfo: { buildVersion: "1.0.0" },
@@ -24,15 +24,15 @@ describe("App", () => {
       vi.fn(() =>
         Promise.resolve({
           json: () => Promise.resolve(diagnostics),
-        }),
-      ),
+        })
+      )
     );
   });
 
   it("matches snapshot in loading state", () => {
     vi.stubGlobal(
       "fetch",
-      vi.fn(() => new Promise(() => {})), // never resolves
+      vi.fn(() => new Promise(() => {})) // never resolves
     );
     const { asFragment } = render(<App />);
     // App returns null in loading state, so fragment should be empty
@@ -44,10 +44,10 @@ describe("App", () => {
     await waitFor(() => {
       expect(screen.getByRole("tab", { name: /Extensions/i })).not.toBeNull();
       expect(
-        screen.getByRole("tab", { name: /Build Information/i }),
+        screen.getByRole("tab", { name: /Build Information/i })
       ).not.toBeNull();
       expect(
-        screen.getByRole("tab", { name: /Server Information/i }),
+        screen.getByRole("tab", { name: /Server Information/i })
       ).not.toBeNull();
     });
   });
@@ -56,7 +56,7 @@ describe("App", () => {
     const { asFragment } = render(<App />);
     await waitFor(() => {
       expect(
-        screen.getByRole("tab", { name: /Extensions/i }),
+        screen.getByRole("tab", { name: /Extensions/i })
       ).toBeInTheDocument();
     });
     expect(asFragment()).toMatchSnapshot();

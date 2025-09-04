@@ -1,7 +1,6 @@
-import "@testing-library/jest-dom/vitest";
 import { render } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import Extension from "./Extension";
+import Extension from "../Extension";
 
 describe("Extension", () => {
   it("renders extensionName as heading", () => {
@@ -12,7 +11,7 @@ describe("Extension", () => {
   it("renders Configuration when config is provided", () => {
     const config = { foo: "bar" };
     const { container } = render(
-      <Extension extensionName="ext" config={config} />,
+      <Extension extensionName="ext" config={config} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -20,7 +19,7 @@ describe("Extension", () => {
   it("renders StageDefinition when stageDefinition is provided", () => {
     const stageDefinition = { name: ["Stage1"] };
     const { container } = render(
-      <Extension extensionName="ext" stageDefinition={stageDefinition} />,
+      <Extension extensionName="ext" stageDefinition={stageDefinition} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -33,7 +32,7 @@ describe("Extension", () => {
         extensionName="ext"
         config={config}
         stageDefinition={stageDefinition}
-      />,
+      />
     );
     expect(container).toMatchSnapshot();
   });

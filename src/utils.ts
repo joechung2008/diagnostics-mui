@@ -1,5 +1,5 @@
 export function isExtensionInfo(
-  value: Extension | undefined,
+  value: Extension | undefined
 ): value is ExtensionInfo {
   return value !== undefined && "extensionName" in value;
 }

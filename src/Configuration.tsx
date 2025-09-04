@@ -10,7 +10,7 @@ import {
 const Configuration: React.FC<ConfigurationProps> = ({ config }) => {
   const items = Object.entries(config).reduce<KeyValuePair<string>[]>(
     (previous, [key, value]) => [...previous, { key, value }],
-    [],
+    []
   );
 
   return (
@@ -26,8 +26,8 @@ const Configuration: React.FC<ConfigurationProps> = ({ config }) => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {items.map((item, idx) => (
-            <TableRow key={idx}>
+          {items.map((item) => (
+            <TableRow key={item.key}>
               <TableCell>{item.key}</TableCell>
               <TableCell>{item.value}</TableCell>
             </TableRow>

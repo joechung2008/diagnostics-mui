@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
-import Extensions from "./Extensions";
+import Extensions from "../Extensions";
 
 describe("Extensions", () => {
   it("matches snapshot with minimal extension", () => {
@@ -9,7 +9,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -21,7 +21,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -35,7 +35,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -49,7 +49,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -64,7 +64,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -83,7 +83,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -92,7 +92,7 @@ describe("Extensions", () => {
     const extensions = {};
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });
@@ -106,7 +106,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = vi.fn();
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     const buttons = screen.getAllByRole("button");
     buttons.forEach((button) => fireEvent.click(button));
@@ -126,7 +126,7 @@ describe("Extensions", () => {
     };
     const onLinkClick = () => {};
     const { container } = render(
-      <Extensions extensions={extensions} onLinkClick={onLinkClick} />,
+      <Extensions extensions={extensions} onLinkClick={onLinkClick} />
     );
     expect(container).toMatchSnapshot();
   });

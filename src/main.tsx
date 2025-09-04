@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals.ts";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

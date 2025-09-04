@@ -1,6 +1,6 @@
 import { renderHook } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { useSystemTheme } from "./useSystemTheme";
+import { useSystemTheme } from "../useSystemTheme";
 
 let mockPrefersDark = false;
 vi.mock("@mui/material", async () => {
