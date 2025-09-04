@@ -9,7 +9,13 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 
 export default [
-  globalIgnores(["dist", "coverage", "**/*.d.ts"]),
+  globalIgnores([
+    "dist",
+    "coverage",
+    "**/*.d.ts",
+    "*.config.ts",
+    "setupTests.ts",
+  ]),
   ...tseslint.configs.recommended,
   reactPlugin.configs["recommended-typescript"],
   reactDomPlugin.configs.recommended,
@@ -21,6 +27,14 @@ export default [
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+      parserOptions: {
+        project: [
+          "./tsconfig.json",
+          "./tsconfig.app.json",
+          "./tsconfig.node.json",
+        ],
+        tsconfigRootDir: process.cwd(),
+      },
     },
     plugins: {
       prettier: prettierPlugin,
