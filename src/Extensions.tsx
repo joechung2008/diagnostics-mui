@@ -1,4 +1,4 @@
-import { Grid, List, ListItemButton, ListItemText } from "@mui/material";
+import { Button, Grid, List, ListItem } from "@mui/material";
 import { byKey, isExtensionInfo, toNavLink } from "./utils";
 
 const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
@@ -9,14 +9,17 @@ const Extensions: React.FC<ExtensionsProps> = ({ extensions, onLinkClick }) => {
 
   return (
     <Grid className="extension-root" size="auto">
-      <List>
+      <List aria-label="Extensions">
         {links.map((link) => (
-          <ListItemButton
-            key={link.key}
-            onClick={(e) => onLinkClick?.(e, link)}
-          >
-            <ListItemText primary={link.name} />
-          </ListItemButton>
+          <ListItem key={link.key}>
+            <Button
+              className="nav-button"
+              sx={{ justifyContent: "flex-start" }}
+              onClick={(e) => onLinkClick?.(e, link)}
+            >
+              {link.name}
+            </Button>
+          </ListItem>
         ))}
       </List>
     </Grid>
